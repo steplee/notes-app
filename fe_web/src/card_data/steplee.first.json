@@ -1,0 +1,30 @@
+{
+  "author": "steplee",
+  "name": "first",
+  "deck_id": 0,
+
+  "modified": "now",
+
+  "cards": [
+    { "type": "TwoCard",
+      "id": 0,
+      "fields": {
+        "front": "one plus 1 is ...",
+        "back": "2"
+    } },
+    { "type": "TwoCard",
+      "id": 1,
+      "fields": {
+        "front": "2 plus 2 is ...",
+        "back": "4"
+    } },
+    { "type": "TwoCard",
+      "id": 2,
+      "fields": {
+        "front": "4 plus 4 is ...",
+        "back": "8"
+    } }
+  ],
+
+  "order": [0,1,2]
+}

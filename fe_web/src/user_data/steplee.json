@@ -1,0 +1,16 @@
+{
+  "user": "steplee",
+
+  "states": [
+    {
+      "deck_name": "first",
+      "deck_id": "steplee.first",
+      "unseen_card_ids": [0,1],
+      "queue": [
+        { "time": 123123, "card_id": 0 },
+        { "time": 123123, "card_id": 1 },
+        { "time": 123124, "card_id": 2 }
+      ]
+    }
+  ]
+}
