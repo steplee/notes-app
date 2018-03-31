@@ -1,4 +1,11 @@
-# fe_web
+# fe_web, a PWA
+
+## Todo
+ * Look into GraphQL again. It could simplify a lot.
+ * Think about implementation of storage. I will need both local & server storage.
+    * IndexedDB looks like a good local impl.
+    * One class for all storage, or segment per deck, progress, etc?
+    * Should have one class for each of local & server probably.
 
 > A Vue.js project
 

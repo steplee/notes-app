@@ -19,13 +19,13 @@
 
 <script>
 import AbstractCard from '@/components/AbstractCard'
-import {User} from '@/logic/schedule'
+import {User} from '@/logic/user'
 
 export default {
   name: 'TwoCard',
   data: function() {
     return {
-      user: new User(),
+      user: new User("steplee","steplee"),
       deck: {},
       deck_loaded: false,
       deck: {},
@@ -56,10 +56,10 @@ export default {
     },
   },
   created: function() {
-    var name = this.$route.params.deck_id;
+    var deck_name = this.$route.params.deck_id;
 
-    //var deck = require(`../card_data/${name}`);
-    var deck = this.user.loadDeck(name);
+    //var deck = require(`../card_data/${deck_name}`);
+    var deck = this.user.loadDeck(deck_name);
     if (deck) {
       this.deck_loaded = true;
       this.deck = deck;

@@ -3,6 +3,7 @@
 
   "states": [
     {
+      "updated": 1,
       "deck_name": "first",
       "deck_id": "steplee.first",
       "unseen_card_ids": [0,1],
